@@ -4,10 +4,10 @@ import EmployeeDataService from "../services/EmployeeService";
 const AddEmployee = () => {
   const initialEmployeeState = {
     id: null,
-    name: "",
-    email: "",
+    name: null,
+    email: null,
     phone: null,
-    dept: "",
+    dept: null,
     age: null,
 
   };
@@ -85,7 +85,7 @@ const AddEmployee = () => {
             required
             value={employee.name}
             onChange={handleInputChange}
-            name="description"
+            name="employeeName"
           />
         </div>
 

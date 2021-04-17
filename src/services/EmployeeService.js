@@ -1,4 +1,4 @@
-import http from "../http-axios";
+import http from "../http_axios";
 
 
 const getAll = () => {
@@ -26,7 +26,7 @@ const removeAll = () => {
 };
 
 const findByName = name => {
-  return http.get(`/employees?title=${name}`);
+  return http.get(`/employees?name=${name}`);
 };
 
 export default {
