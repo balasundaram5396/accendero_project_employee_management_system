@@ -14,10 +14,9 @@ Employee Management System (Full-Stack) Application using React.js and Spring Bo
   
 ### STEPS FOR RUNNING THE FRONTEND
 
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### `npm install`
 
 ### `npm start`
 
